@@ -1,0 +1,136 @@
+/* <!DOCTYPE html>
+<html>
+<head>
+    <title>Gym Website</title>
+    <style>
+        body {
+            background-image: url("/image/slide--2.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        
+        .container {
+            width: 100%;
+            max-width: 960px;
+            margin: 0 auto;
+            padding: 20px;
+            color: #fff;
+            text-align: center;
+        }
+        
+        h1 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+        
+        p {
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+        
+        .contact-info {
+            margin-top: 50px;
+            text-align: left;
+        }
+        
+        .contact-info h2 {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+        
+        .contact-info p {
+            font-size: 16px;
+            margin-bottom: 10px;
+        }
+        
+        .blog-section {
+            margin-top: 50px;
+            text-align: left;
+        }
+        
+        .blog-section h2 {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+        
+        .blog-section .blog {
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+        }
+        
+        .blog-section .blog img {
+            width: 200px;
+            margin-right: 20px;
+        }
+        
+        .blog-section .blog h3 {
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+        
+        .blog-section .blog p {
+            font-size: 16px;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">Gym Go<span>Fitness</span></a>
+         <nav class="navbar active">
+             <a href="/index.html">HOME</a>
+             <a  href="/About/About.html">ABOUT</a>
+             <a href='/html/home.html'>Classes</a>
+             <a class="active" href="#">BLOGS</a>
+             <a href="#contact">CONTACT-US</a>
+         </nav>
+         <div class="icons">
+             <a href="#" class="btn">JOIN<span> NOW</a>
+             <div id="menu-btn" class="fas fa-bars"></div>
+         </div>
+     </header> 
+    <div class="container">
+        <h1>Welcome to Our Gym</h1>
+        <p>Get fit and stay healthy!</p>
+        
+        <div class="contact-info">
+            <h2>Contact Us</h2>
+            <p>Address: 123 Gym Street, City</p>
+            <p>Phone: 123-456-7890</p>
+            <p>Email: info@gym.com</p>
+        </div>
+        
+        <div class="blog-section">
+            <h2>Latest Blogs</h2>
+            
+            <div class="blog">
+                <img src="/image/ex1.jpg" alt="Yoga Image">
+                <div>
+                    <h3>Benefits of Yoga for Mind and Body</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ultrices nibh ac ex sagittis hendrerit.</p>
+                </div>
+            </div>
+            
+            <div class="blog">
+                <img src="/image/ex1.jpg" alt="Muscle Training Image">
+                <div>
+                    <h3>Tips for Effective Muscle Training</h3>
+                    <p>Integer tincidunt enim ac erat aliquam, eu gravida leo feugiat. Curabitur semper pharetra sapien ac cursus.</p>
+                </div>
+            </div>
+            
+            <div class="blog">
+                <img src="/image/ex1.jpg" alt="Nutrition Image">
+                <div>
+                    <h3>Importance of Proper Nutrition</h3>
+                    <p>Nunc blandit neque eget luctus placerat. Etiam maximus sapien nec tempor tincidunt.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html> */

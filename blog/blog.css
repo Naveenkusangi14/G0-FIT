@@ -1,0 +1,428 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+:root {
+  --main-color: #f73471;
+  --black: #000;
+  --light-color: #868e96;
+  --main-color: #f73471;
+  --black: #000;
+  --light-color: #868e96;
+  --primaryColor:#9a0021;
+  --secondarycolor:#ffae01;
+  --fontcolor:#2b2e35;
+  --blue: #007bff;
+  --indigo: #6610f2;
+  --purple: #6f42c1;
+  --pink: #e83e8c;
+  --red: #dc3545;
+  --orange: #fd7e14;
+  --yellow: #ffc107;
+  --green: #28a745;
+  --teal: #20c997;
+  --cyan: #17a2b8;
+  --white: #fff;
+  --gray: #6c757d;
+  --gray-dark: #343a40;
+  --primary: #007bff;
+  --secondary: #6c757d;
+  --success: #28a745;
+  --info: #17a2b8;
+  --warning: #ffc107;
+  --danger: #dc3545;
+  --light: #f8f9fa;
+  --dark: #343a40;
+}
+
+
+
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
+  text-decoration: none;
+  outline: none;
+  border: none;
+}
+
+/* Rest of the CSS code... */
+
+    /* transition: all .2s linear; */
+
+
+::selection{
+    background: var(--main-color);
+    color: #ffff;
+}
+
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    overflow-x:hidden ;
+    scroll-padding-top: 7rem;
+}
+html::--webkit-scrollbar{
+ width: 1rem;
+}
+html::--webkit-scrollbar-track{
+    background: #fafafa;
+   }
+   html::--webkit-scrollbar-thumb{
+   background:var(--main-color);
+   border-radius: 5rem;
+   }
+section{
+    padding: 2rem 9%;
+}
+.btn{
+    margin-top: 1rem;
+    display: inline-block;
+    background:var(--main-color)  ;
+    padding: .8rem 3rem;
+    font-weight: 500;
+    color: #fff;
+    font-size: 2.0rem;
+ 
+}
+.btn:hover{
+    background: #c30d0d;
+    color: #000;
+  letter-spacing: .1rem;
+}
+
+
+
+
+
+  /* ---------------------------------------------header Section ****** start****--------------------------------- */
+.header{
+    position: fixed;
+    top:0;
+    left:0;
+    right: 0;
+    display: flex;
+    padding: 1.5rem 9%;
+    align-items: center;
+    justify-content: space-between;
+ background-color: #000;
+    box-shadow: 0rem .1rem .5rem rgba(0, 0, 0, .1);
+    z-index: 1000;
+    
+}
+.header .logo {
+    font-size: 2.5rem;
+    color: rgb(255, 25, 0);
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+}
+.header .logo span{
+    color:yellowgreen;
+ 
+}
+.header .navbar a{
+    font-size: 1.7rem;
+    color: #f73471;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 0  1rem;
+    border-radius:3px ;
+    padding: 7px 13px;
+}
+
+a.active,a:hover{
+  background:#fff;
+  transition: .5s;
+  
+}
+
+.header .navbar a:hover{
+    color: var(--main-color);
+  
+}
+.header .icons div{
+    font-size: 2.5rem;
+    color: #222;
+    padding:.5rem;
+    cursor: pointer;
+    margin-left: 1rem;
+}
+.header .icons div:hover{
+    transform: rotate(180deg);
+    color: #f73471;
+}
+.header .icons a{
+    font-size: 1.5rem;
+    letter-spacing: .1rem;
+    color: #fff;
+    background: #f73471;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding: .8rem 2rem;
+    border: none;
+
+}
+.header .icons a:hover{
+    color: #f73471;
+    background: #fff;
+}
+#menu-btn{
+color:white;
+float:right;
+font-size: 30px;
+line-height: 50px;
+margin-right: 40px;
+cursor: pointer;
+display: none;
+}
+
+
+/* -----------------------------------------------------------------------------------------------BLOGS START------------------------------------------------------------------ */
+.heading{
+    font-size: 4rem;
+    text-align: center;
+    padding-top: 14rem ;
+    padding-bottom: 2rem;
+    color: var(--black);
+    text-transform: capitalize;
+    position: relative;
+  }
+  .heading span{
+    color: #f73471;
+  }
+
+/* ---------------------------------BLOGS-------------------------- */
+.blogs{
+  padding: 6px;
+}
+  .blogs .blogs-slider{
+    padding-bottom: 4rem ;
+   
+    }
+    
+   
+.blogs .blogs-slider .box{
+    position: relative;
+    overflow: hidden;
+    margin: 8rem 0;
+    background: transparent;
+    box-shadow: 0 0.5rem  .5rem rgba(0, 0, 0, .9);
+} 
+     
+    
+  .blogs .blogs-slider .box .image{
+    height: 50rem;
+    width: 100%;
+    overflow: hidden;
+     }
+        
+    .blogs .blogs-slider .box .image img{
+            /* height: 90%; */
+            height: auto;
+             width: 100%;
+             object-fit: cover;
+          
+     }
+    
+     .blogs .blogs-slider .box:hover .image img{
+     transform: scale(1.2);
+   
+    
+    }
+    .blogs .blogs-slider .box .content{
+      padding: 2rem;
+      padding-bottom:1rem ;
+ 
+    }
+    .blogs .blogs-slider .box .content h3{
+      font-size: 3rem;
+      color: black;
+      font-weight: bold;
+      padding-top: 1rem;
+    }
+    .blogs .blogs-slider .box .content span{
+      font-size: 1.5rem;
+      color: #eee;
+    }
+    
+    .blogs .blogs-slider .box .content span i{
+     margin-right: .5rem;
+     color: var(--main-color);
+    } 
+    
+    .blogs .blogs-slider .box .content p{
+      padding-top: 1.5rem;
+      color: #c30d0d;
+      font-size: 1.5rem;
+      line-height: 1.8;
+    }
+    .blogs .blogs-slider .box .buttons{
+      text-align: center;
+      padding-bottom: 2rem;
+    }
+    
+    .blogs .blogs-slider .box .button .btn{
+      background: #f73471;
+    
+    }
+    
+    
+    /* -----------------------------FOOTER------------------------------------------------------------------ */
+    
+    .footer{
+  
+      background: linear-gradient(to bottom,rgba(0 , 0 , 0 , 0.4), rgba(136, 55, 55, 0.9)),url(/image/banner.png) no-repeat;
+    
+    }
+    
+    .footer .box-container{
+      display: flex;
+      grid-template-columns: repeat(auto-fit , minmax(23rem , 1fr));
+      gap: .2rem;
+    }
+    .footer .box-container .box{
+      padding: 2.5rem;
+      color: #c30d0d;
+      font-weight: 600;
+      padding-bottom: 1rem;
+    }
+    .footer .box-container .box .text{
+      color: #eee;
+      font-size: 1.3rem;
+      padding-bottom: 1rem;
+      font-weight: normal;
+      line-height: 1.8;
+    }
+    
+    .footer .box-container .box .ico{
+      padding: 1rem 0;
+     
+    }
+    .footer .box-container .box .ico a i{
+    height: 5rem;
+    width: 5rem;
+    line-height: 5rem;
+    background: wheat;
+    text-align: center;
+    font-size: 2rem;
+    border-radius: 50%;
+    margin: 0.5rem;
+    color: #f73471 ;
+    }
+    
+    .footer .box-container .box .ico a i:hover{
+      color: rgb(57, 17, 234);
+      background-color: none;
+      border: .2rem solid white;
+    }
+    .footer .box-container .box .iconsr a{
+      display: block;
+      color: #000;
+      font-size: 1.5rem;
+      margin: 1.5rem 0;
+      text-decoration: none;
+    
+    }
+    
+    .footer .box-container .box .iconsr a i{
+      margin-right: .5rem;
+      color: var(--main-color);
+    }
+    
+    .footer .box-container .box .iconsr a:hover i{
+     padding-right: 2rem; 
+     color: #eee;
+    }
+    
+    .footer .credit{
+    text-align: center;
+    padding: 1rem 0;
+    font-size: 1.3rem;
+    font-weight: 500;
+    }
+      
+    .footer .credit span{
+     /* color: #f73471; */
+     color: orange;
+      }
+      
+   
+      body{
+        margin:0;
+        padding:0;
+        overflow-x: hidden;
+  
+       
+      }
+      /* body{
+        backdrop-filter: blur(3px);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image:linear-gradient(rgba(0,0,0,.1),rgba(0,0,0,0.1)), url('https://st3.depositphotos.com/1000165/14105/i/600/depositphotos_141054402-stock-photo-interior-of-a-fitness-hall.jpg');
+      }
+       */
+  
+      
+      /* media */
+@media(max-width:991px){
+  html{
+      font-size: 55%;
+  }
+
+.header{
+  padding:2rem
+}
+.header.active{
+  padding: 2rem;
+}
+
+}
+
+
+@media(max-width:768px){
+ 
+#menu-btn{
+  display: inline-block;
+
+}
+
+.header .navbar{
+  position: absolute;
+  top: 100%;
+  right: 0;
+  left:0;
+  background-color: rgba(0, 0, 0, .6);
+  border-top: .1rem solid #eee;
+ clip-path: polygon(0 0 ,100% 0 , 100% 0 ,0 0);
+}
+
+
+.header .navbar.active{
+  clip-path: polygon(0 0 ,100% 0 , 100% 100% ,0 100%);
+}
+.header .navbar a{
+  display: block;
+  margin: 2rem;
+  font-size: 2rem;
+
+
+
+}
+
+}
+
+@media(max-width:450){
+  html{
+      font-size: 50%;
+  }
+.header .icons a{
+  letter-spacing: none;
+  font-size: 1.3rem;
+  padding: 1rem;
+}
+
+
+}
