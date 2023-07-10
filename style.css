@@ -796,7 +796,7 @@ font-weight: 500;
 }
 
 .trainers .box{
-  width: 65%;
+  width: auto;
   margin-bottom: 3rem;
 }
 
